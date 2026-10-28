@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/StockSalesSystem.API/StockSalesSystem.API.csproj" />
+    <Project Path="src/StockSalesSystem.Application/StockSalesSystem.Application.csproj" />
+    <Project Path="src/StockSalesSystem.Domain/StockSalesSystem.Domain.csproj" />
+    <Project Path="src/StockSalesSystem.Infrastructure/StockSalesSystem.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/StockSalesSystem.IntegrationTests/StockSalesSystem.IntegrationTests.csproj" />
+    <Project Path="tests/StockSalesSystem.UnitTests/StockSalesSystem.UnitTests.csproj" />
+  </Folder>
+</Solution>
