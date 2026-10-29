@@ -11,7 +11,7 @@ public class Order
     public decimal TotalPrice => Items.Sum(item => item.TotalPrice);
 
 
-    protected Order() { 
+    public Order() { 
         Id = Guid.NewGuid();
         CreatedAt = DateTime.UtcNow;
     }
